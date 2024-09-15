@@ -12,6 +12,3 @@ export class Animation {
         this.id = requestAnimationFrame(() => this.run())
     }
 }
-
-const app = new Animation()
-app.start()
